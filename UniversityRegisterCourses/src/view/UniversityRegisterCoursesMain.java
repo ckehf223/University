@@ -91,19 +91,19 @@ public class UniversityRegisterCoursesMain {
 		switch (choice) {
 		case SUBJECT_CHOICE.LIST:
 			System.out.println("");
-//			subjectManager.subjectList();
+			subjectManager.subjectList();
 			break;
 		case SUBJECT_CHOICE.INSERT:
 			System.out.println("");
-//			subjectManager.subjectRegister();
+			subjectManager.subjectRegister();
 			break;
 		case SUBJECT_CHOICE.UPDATE:
 			System.out.println("");
-//			subjectManager.subjectUpdate();
+			subjectManager.subjectUpdate();
 			break;
 		case SUBJECT_CHOICE.DELETE:
 			System.out.println("");
-//			subjectManager.subjectDelete();
+			subjectManager.subjectDelete();
 			break;
 		case SUBJECT_CHOICE.MAIN:
 			return;
