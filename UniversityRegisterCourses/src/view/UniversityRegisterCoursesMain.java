@@ -125,15 +125,15 @@ public class UniversityRegisterCoursesMain {
 		switch (choice) {
 		case STUDENT_CHOICE.INSERT:
 			System.out.println("");
-//			studentManager.studentRegister();
+			studentManager.studentRegister();
 			break;
 		case STUDENT_CHOICE.UPDATE:
 			System.out.println("");
-//			studentManager.studentUpdate();
+			studentManager.studentUpdate();
 			break;
 		case STUDENT_CHOICE.LIST:
 			System.out.println("");
-//			studentManager.studentTotalList();
+			studentManager.studentTotalList();
 			break;
 		case STUDENT_CHOICE.MAIN:
 			return;
