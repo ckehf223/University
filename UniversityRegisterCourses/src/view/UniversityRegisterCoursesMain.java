@@ -62,15 +62,15 @@ public class UniversityRegisterCoursesMain {
 		switch (choice) {
 		case TRAINEE_CHOICE.LIST:
 			System.out.println("");
-//			traineeManager.traineeList();
+			traineeManager.traineeList();
 			break;
 		case TRAINEE_CHOICE.INSERT:
 			System.out.println("");
-//			traineeManager.traineeRegister();
+			traineeManager.traineeRegister();
 			break;
 		case TRAINEE_CHOICE.UPDATE:
 			System.out.println("");
-//			traineeManager.traineeDelete();
+			traineeManager.traineeDelete();
 			break;
 		case TRAINEE_CHOICE.MAIN:
 			return;

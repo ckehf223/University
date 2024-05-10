@@ -70,7 +70,6 @@ public class LessonDAO {
 			
 			if(i == 1) {
 				System.out.println(lvo.getL_name()+" 과목 등록 완료.");
-				System.out.println("과목 등록 성공!!!");
 			}else {
 				System.out.println("과목 등록 실패!!!");
 			}
@@ -109,7 +108,6 @@ public class LessonDAO {
 			
 			if(i == 1) {
 				System.out.println(lvo.getL_name()+" 과목 수정 완료.");
-				System.out.println("과목 수정 성공!!!");
 			}else {
 				System.out.println("과목 수정 실패!!!");
 			}
@@ -150,7 +148,6 @@ public class LessonDAO {
 			
 			if(i == 1) {
 				System.out.println("과목 삭제 완료.");
-				System.out.println("과목 삭제 성공!!!");
 			}else {
 				System.out.println("과목 삭제 실패!!!");
 			}

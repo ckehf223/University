@@ -68,7 +68,6 @@ public class SubjectDAO {
 			int i = pstmt.executeUpdate();
 			if (i == 1) {
 				System.out.println(svo.getS_name() + "학과 등록 완료");
-				System.out.println("학과 등록 성공!!!");
 			} else {
 				System.out.println("학과 등록 실패!!!");
 			}
@@ -110,7 +109,6 @@ public class SubjectDAO {
 			
 			if (i == 1) {
 				System.out.println(svo.getS_name() + "학과 수정 완료");
-				System.out.println("학과 수정 성공!!!");
 			} else {
 				System.out.println("학과 수정 실패!!!");
 			}
@@ -152,7 +150,6 @@ public class SubjectDAO {
 				
 				if (i == 1) {
 					System.out.println("학과 삭제 완료");
-					System.out.println("학과 삭제 성공!!!");
 				} else {
 					System.out.println("학과 삭제 실패!!!");
 				}

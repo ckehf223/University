@@ -20,7 +20,6 @@ public class DBUtil {
 		try {
 			Class.forName(driver);
 			con = DriverManager.getConnection(url, user, password);
-			System.out.println("DB 연결 성공");
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.out.println("데이터베이스 연결 실패");

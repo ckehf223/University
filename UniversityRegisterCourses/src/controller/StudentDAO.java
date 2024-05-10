@@ -32,7 +32,6 @@ public class StudentDAO {
 			int i = pstmt.executeUpdate();
 			if (i == 1) {
 				System.out.println(svo.getSd_name() + "학생 등록 완료");
-				System.out.println("학생 등록 성공!!!");
 			} else {
 				System.out.println("학생 등록 실패!!!");
 			}
@@ -76,7 +75,6 @@ public class StudentDAO {
 			int i = pstmt.executeUpdate();
 			if (i == 1) {
 				System.out.println(svo.getSd_name() + "학생 수정 완료");
-				System.out.println("학생 수정 성공!!!");
 			} else {
 				System.out.println("학생 수정 실패!!!");
 			}
@@ -227,7 +225,7 @@ public class StudentDAO {
 		
 		//학생 번호
 		public String getStudentNum(String id, String pw) throws Exception {
-			String sql = "select *=sd_num from student where sd_id=? and sd_password=?";
+			String sql = "select sd_num from student where sd_id=? and sd_password=?";
 
 			Connection con = null;
 			PreparedStatement pstmt = null;
@@ -247,8 +245,10 @@ public class StudentDAO {
 
 			} catch (SQLException se) {
 				System.out.println("se =[ " + se + " ]");
+				se.printStackTrace();
 			} catch (Exception e) {
 				System.out.println("se =[ " + e + " ]");
+				e.printStackTrace();
 			} finally {
 				try {
 					// 데이터베이스와의 연결에 사용되었던 오브젝트를 해제
@@ -306,8 +306,10 @@ public class StudentDAO {
 
 			} catch (SQLException se) {
 				System.out.println("se =[ " + se + " ]");
+				se.printStackTrace();
 			} catch (Exception e) {
 				System.out.println("se =[ " + e + " ]");
+				e.printStackTrace();
 			} finally {
 				try {
 					// 데이터베이스와의 연결에 사용되었던 오브젝트를 해제
