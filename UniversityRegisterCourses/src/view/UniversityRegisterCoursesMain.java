@@ -155,19 +155,19 @@ public class UniversityRegisterCoursesMain {
 		switch (choice) {
 		case LESSON_CHOICE.LIST:
 			System.out.println("");
-//			lessonManager.lessonList();
+			lessonManager.lessonList();
 			break;
 		case LESSON_CHOICE.INSERT:
 			System.out.println("");
-//			lessonManager.lessonRegister();
+			lessonManager.lessonRegister();
 			break;
 		case LESSON_CHOICE.UPDATE:
 			System.out.println("");
-//			lessonManager.lessonUpdate();
+			lessonManager.lessonUpdate();
 			break;
 		case LESSON_CHOICE.DELETE:
 			System.out.println("");
-//			lessonManager.lessonDelete();
+			lessonManager.lessonDelete();
 			break;
 		case LESSON_CHOICE.MAIN:
 			return;
