@@ -13,6 +13,7 @@ public class LessonRegisterManager {
 		id.getLessonTotalList();
 		System.out.println();
 		String sql = "test Pull Request";
+		String test = "test PullRequest2";
 	}
 	
 	// 과목 등록 관리
